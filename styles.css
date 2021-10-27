@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
 body {
   background-image: url("https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png");
   background-repeat: no-repeat;
@@ -7,7 +8,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-  font-family: "Pokemon Solid", sans-serif;
+  font-family: "Pokemon", sans-serif;
   font-weight: 900;
   color: rgb(255, 251, 0);
   -webkit-text-stroke: 3px blue;
