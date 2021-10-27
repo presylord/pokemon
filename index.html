@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Choose your Pokemon!</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Choose your Starter Pokemon!</h1>
+    <div class="choosepokeball">
+      <a role="button" href="#result1" rel="modal:open"
+        ><img class="pokeballs" src="images/pokeball.png" />
+      </a>
+      <a role="button" href="#result2" rel="modal:open"
+        ><img class="pokeballs" src="images/pokeball.png" /></a
+      ><a role="button" href="#result3" rel="modal:open"
+        ><img class="pokeballs" src="images/pokeball.png"
+      /></a>
+    </div>
+
+    <!-- hidden divs -->
+    <div id="result1" class="modal">
+      <img class="pokemon1" src="images/pokeball.png" />
+      <p></p>
+    </div>
+
+    <div id="result2" class="modal">
+      <img class="pokemon2" src="images/pokeball.png" />
+      <p></p>
+    </div>
+
+    <div id="result3" class="modal">
+      <img class="pokemon3" src="images/pokeball.png" />
+      <p></p>
+    </div>
+
+    <!-- javascript scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <script src="index.js"></script>
+  </body>
+</html>
